@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D92B6C388AFFB791DC96EC0 /* Pods_BuzzSDKTestAppNov2020_3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49DD92C8CF2C57B991E671AD /* Pods_BuzzSDKTestAppNov2020_3.framework */; };
+		D769D1EC25657AE3009F0152 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D769D1EB25657AE3009F0152 /* AppDelegate.swift */; };
+		D769D1EE25657AE3009F0152 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D769D1ED25657AE3009F0152 /* SceneDelegate.swift */; };
+		D769D1F025657AE3009F0152 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D769D1EF25657AE3009F0152 /* ViewController.swift */; };
+		D769D1F325657AE3009F0152 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D769D1F125657AE3009F0152 /* Main.storyboard */; };
+		D769D1F525657AE6009F0152 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D769D1F425657AE6009F0152 /* Assets.xcassets */; };
+		D769D1F825657AE6009F0152 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D769D1F625657AE6009F0152 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49DD92C8CF2C57B991E671AD /* Pods_BuzzSDKTestAppNov2020_3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuzzSDKTestAppNov2020_3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0AB3B577D4509786224CEB6 /* Pods-BuzzSDKTestAppNov2020_3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuzzSDKTestAppNov2020_3.release.xcconfig"; path = "Target Support Files/Pods-BuzzSDKTestAppNov2020_3/Pods-BuzzSDKTestAppNov2020_3.release.xcconfig"; sourceTree = "<group>"; };
+		BBC93B5F20484D441BF40C98 /* Pods-BuzzSDKTestAppNov2020_3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuzzSDKTestAppNov2020_3.debug.xcconfig"; path = "Target Support Files/Pods-BuzzSDKTestAppNov2020_3/Pods-BuzzSDKTestAppNov2020_3.debug.xcconfig"; sourceTree = "<group>"; };
+		D769D1E825657AE3009F0152 /* BuzzSDKTestAppNov2020_3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuzzSDKTestAppNov2020_3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D769D1EB25657AE3009F0152 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D769D1ED25657AE3009F0152 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D769D1EF25657AE3009F0152 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D769D1F225657AE3009F0152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D769D1F425657AE6009F0152 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D769D1F725657AE6009F0152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D769D1F925657AE6009F0152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D769D1E525657AE3009F0152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D92B6C388AFFB791DC96EC0 /* Pods_BuzzSDKTestAppNov2020_3.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B7D20509A6994AD703EC759 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBC93B5F20484D441BF40C98 /* Pods-BuzzSDKTestAppNov2020_3.debug.xcconfig */,
+				A0AB3B577D4509786224CEB6 /* Pods-BuzzSDKTestAppNov2020_3.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3269C7000B7B864BCCFEB507 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49DD92C8CF2C57B991E671AD /* Pods_BuzzSDKTestAppNov2020_3.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D769D1DF25657AE3009F0152 = {
+			isa = PBXGroup;
+			children = (
+				D769D1EA25657AE3009F0152 /* BuzzSDKTestAppNov2020_3 */,
+				D769D1E925657AE3009F0152 /* Products */,
+				1B7D20509A6994AD703EC759 /* Pods */,
+				3269C7000B7B864BCCFEB507 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D769D1E925657AE3009F0152 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D769D1E825657AE3009F0152 /* BuzzSDKTestAppNov2020_3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D769D1EA25657AE3009F0152 /* BuzzSDKTestAppNov2020_3 */ = {
+			isa = PBXGroup;
+			children = (
+				D769D1EB25657AE3009F0152 /* AppDelegate.swift */,
+				D769D1ED25657AE3009F0152 /* SceneDelegate.swift */,
+				D769D1EF25657AE3009F0152 /* ViewController.swift */,
+				D769D1F125657AE3009F0152 /* Main.storyboard */,
+				D769D1F425657AE6009F0152 /* Assets.xcassets */,
+				D769D1F625657AE6009F0152 /* LaunchScreen.storyboard */,
+				D769D1F925657AE6009F0152 /* Info.plist */,
+			);
+			path = BuzzSDKTestAppNov2020_3;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D769D1E725657AE3009F0152 /* BuzzSDKTestAppNov2020_3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D769D1FC25657AE6009F0152 /* Build configuration list for PBXNativeTarget "BuzzSDKTestAppNov2020_3" */;
+			buildPhases = (
+				9EE1A54426DD9C29E5C397EF /* [CP] Check Pods Manifest.lock */,
+				D769D1E425657AE3009F0152 /* Sources */,
+				D769D1E525657AE3009F0152 /* Frameworks */,
+				D769D1E625657AE3009F0152 /* Resources */,
+				CEC99085B824703C09C259B4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuzzSDKTestAppNov2020_3;
+			productName = BuzzSDKTestAppNov2020_3;
+			productReference = D769D1E825657AE3009F0152 /* BuzzSDKTestAppNov2020_3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D769D1E025657AE3009F0152 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					D769D1E725657AE3009F0152 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = D769D1E325657AE3009F0152 /* Build configuration list for PBXProject "BuzzSDKTestAppNov2020_3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D769D1DF25657AE3009F0152;
+			productRefGroup = D769D1E925657AE3009F0152 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D769D1E725657AE3009F0152 /* BuzzSDKTestAppNov2020_3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D769D1E625657AE3009F0152 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D769D1F825657AE6009F0152 /* LaunchScreen.storyboard in Resources */,
+				D769D1F525657AE6009F0152 /* Assets.xcassets in Resources */,
+				D769D1F325657AE3009F0152 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9EE1A54426DD9C29E5C397EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BuzzSDKTestAppNov2020_3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEC99085B824703C09C259B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BuzzSDKTestAppNov2020_3/Pods-BuzzSDKTestAppNov2020_3-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BuzzSDKTestAppNov2020_3/Pods-BuzzSDKTestAppNov2020_3-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BuzzSDKTestAppNov2020_3/Pods-BuzzSDKTestAppNov2020_3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D769D1E425657AE3009F0152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D769D1F025657AE3009F0152 /* ViewController.swift in Sources */,
+				D769D1EC25657AE3009F0152 /* AppDelegate.swift in Sources */,
+				D769D1EE25657AE3009F0152 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D769D1F125657AE3009F0152 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D769D1F225657AE3009F0152 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D769D1F625657AE6009F0152 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D769D1F725657AE6009F0152 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D769D1FA25657AE6009F0152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D769D1FB25657AE6009F0152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D769D1FD25657AE6009F0152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBC93B5F20484D441BF40C98 /* Pods-BuzzSDKTestAppNov2020_3.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P2BWFQYTNJ;
+				INFOPLIST_FILE = BuzzSDKTestAppNov2020_3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fosy.lee.BuzzSDKTestAppNov2020-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D769D1FE25657AE6009F0152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0AB3B577D4509786224CEB6 /* Pods-BuzzSDKTestAppNov2020_3.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P2BWFQYTNJ;
+				INFOPLIST_FILE = BuzzSDKTestAppNov2020_3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fosy.lee.BuzzSDKTestAppNov2020-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D769D1E325657AE3009F0152 /* Build configuration list for PBXProject "BuzzSDKTestAppNov2020_3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D769D1FA25657AE6009F0152 /* Debug */,
+				D769D1FB25657AE6009F0152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D769D1FC25657AE6009F0152 /* Build configuration list for PBXNativeTarget "BuzzSDKTestAppNov2020_3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D769D1FD25657AE6009F0152 /* Debug */,
+				D769D1FE25657AE6009F0152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D769D1E025657AE3009F0152 /* Project object */;
+}
