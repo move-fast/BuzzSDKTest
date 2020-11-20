@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -48,7 +48,6 @@
 				BBC93B5F20484D441BF40C98 /* Pods-BuzzSDKTestAppNov2020_3.debug.xcconfig */,
 				A0AB3B577D4509786224CEB6 /* Pods-BuzzSDKTestAppNov2020_3.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -365,6 +364,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fosy.lee.BuzzSDKTestAppNov2020-3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}/OMSDK_Buzztechno";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -385,6 +385,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fosy.lee.BuzzSDKTestAppNov2020-3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}/OMSDK_Buzztechno";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
