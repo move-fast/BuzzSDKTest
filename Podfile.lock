@@ -1,16 +1,16 @@
 PODS:
-  - BuzzSDK (3.1.4)
+  - BuzzSDK (3.1.7)
 
 DEPENDENCIES:
-  - BuzzSDK (= 3.1.4)
+  - BuzzSDK (= 3.1.7)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - BuzzSDK
 
 SPEC CHECKSUMS:
-  BuzzSDK: 85092249fdac67783eab89524aae0c2ed4000392
+  BuzzSDK: fd206ea30c146f2b07c691f837aef99b6ce2f7e2
 
-PODFILE CHECKSUM: 1c67ae7398d58e2a088cc153de1d8963e58f0e6b
+PODFILE CHECKSUM: dcc72644d79e30a68d282e1d13ef2c94d68ed9ad
 
 COCOAPODS: 1.10.0
