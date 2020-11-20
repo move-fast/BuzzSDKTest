@@ -9,7 +9,7 @@ target 'BuzzSDKTestAppNov2020_3' do
   # Comment the next line if you don't want to use dynamic frameworks
 
   # Pods for BuzzSDKTestAppNov2020_2
-  pod 'BuzzSDK', '3.1.3'
+  pod 'BuzzSDK', '3.1.4'
 
 
 end
