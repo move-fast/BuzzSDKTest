@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4D92B6C388AFFB791DC96EC0 /* Pods_BuzzSDKTestAppNov2020_3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49DD92C8CF2C57B991E671AD /* Pods_BuzzSDKTestAppNov2020_3.framework */; };
-		D75AD5FA2568185F009AB6A9 /* OMSDK_Buzztechno.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D75AD5F92568185F009AB6A9 /* OMSDK_Buzztechno.framework */; };
 		D769D1EC25657AE3009F0152 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D769D1EB25657AE3009F0152 /* AppDelegate.swift */; };
 		D769D1F025657AE3009F0152 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D769D1EF25657AE3009F0152 /* ViewController.swift */; };
 		D769D1F325657AE3009F0152 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D769D1F125657AE3009F0152 /* Main.storyboard */; };
@@ -20,7 +19,6 @@
 		49DD92C8CF2C57B991E671AD /* Pods_BuzzSDKTestAppNov2020_3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuzzSDKTestAppNov2020_3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0AB3B577D4509786224CEB6 /* Pods-BuzzSDKTestAppNov2020_3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuzzSDKTestAppNov2020_3.release.xcconfig"; path = "Target Support Files/Pods-BuzzSDKTestAppNov2020_3/Pods-BuzzSDKTestAppNov2020_3.release.xcconfig"; sourceTree = "<group>"; };
 		BBC93B5F20484D441BF40C98 /* Pods-BuzzSDKTestAppNov2020_3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuzzSDKTestAppNov2020_3.debug.xcconfig"; path = "Target Support Files/Pods-BuzzSDKTestAppNov2020_3/Pods-BuzzSDKTestAppNov2020_3.debug.xcconfig"; sourceTree = "<group>"; };
-		D75AD5F92568185F009AB6A9 /* OMSDK_Buzztechno.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OMSDK_Buzztechno.framework; sourceTree = "<group>"; };
 		D769D1E825657AE3009F0152 /* BuzzSDKTestAppNov2020_3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuzzSDKTestAppNov2020_3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D769D1EB25657AE3009F0152 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D769D1EF25657AE3009F0152 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,7 +34,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D92B6C388AFFB791DC96EC0 /* Pods_BuzzSDKTestAppNov2020_3.framework in Frameworks */,
-				D75AD5FA2568185F009AB6A9 /* OMSDK_Buzztechno.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,7 +60,6 @@
 		D769D1DF25657AE3009F0152 = {
 			isa = PBXGroup;
 			children = (
-				D75AD5F92568185F009AB6A9 /* OMSDK_Buzztechno.framework */,
 				D769D1EA25657AE3009F0152 /* BuzzSDKTestAppNov2020_3 */,
 				D769D1E925657AE3009F0152 /* Products */,
 				1B7D20509A6994AD703EC759 /* Pods */,
@@ -103,7 +99,7 @@
 				D769D1E425657AE3009F0152 /* Sources */,
 				D769D1E525657AE3009F0152 /* Frameworks */,
 				D769D1E625657AE3009F0152 /* Resources */,
-				EA04013AED2858F5B1683E63 /* [CP] Embed Pods Frameworks */,
+				35C5BA8067ED32F0BF345E9D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +156,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		35C5BA8067ED32F0BF345E9D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BuzzSDKTestAppNov2020_3/Pods-BuzzSDKTestAppNov2020_3-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BuzzSDKTestAppNov2020_3/Pods-BuzzSDKTestAppNov2020_3-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BuzzSDKTestAppNov2020_3/Pods-BuzzSDKTestAppNov2020_3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9EE1A54426DD9C29E5C397EF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -180,23 +193,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EA04013AED2858F5B1683E63 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BuzzSDKTestAppNov2020_3/Pods-BuzzSDKTestAppNov2020_3-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BuzzSDKTestAppNov2020_3/Pods-BuzzSDKTestAppNov2020_3-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BuzzSDKTestAppNov2020_3/Pods-BuzzSDKTestAppNov2020_3-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -368,7 +364,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fosy.lee.BuzzSDKTestAppNov2020-3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_INCLUDE_PATHS = "${SRCROOT}/OMSDK_Buzztechno";
+				SWIFT_INCLUDE_PATHS = "$(inherited)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -393,7 +389,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fosy.lee.BuzzSDKTestAppNov2020-3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_INCLUDE_PATHS = "${SRCROOT}/OMSDK_Buzztechno";
+				SWIFT_INCLUDE_PATHS = "$(inherited)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
